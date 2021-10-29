@@ -1,0 +1,187 @@
+---------------------------------------------------------------------------------
+-----------------TEST CASES FOR EMAIL ADDRESS FIELD------------------------------
+---------------------------------------------------------------------------------
+Email Address – Textbox -  it is an mandatory field 
+This field can accept Mix of Alphanumeric and special characters 
+in a valid Email Format of 30 digits.  
+---------------------------------------------------------------------------------
+
+Positive Test Cases:
+--------------------
+1. Verify the Email Address label on the Contact Us Page
+2. Verify the Input type of the field
+3. Verify the field with valid characters 
+4. Verify the field with 30 characters
+5. Verify the color of label 'Email Address' in the Contact Us Page
+6. Verify the font type of label 'Email Address' in the Contact Us Page
+7. Verify the font size of label 'Email Address' in the Contact Us Page
+8. Verify the default text in the field
+9. Verify the validation messages in the field in case of invalid input
+10. Verify the position of label 'Email Address' in the Contact Us Page
+
+Negative Test Cases:
+--------------------
+1. Verify the field with blank input
+2. Verify the field with white spaces as input
+3. Verify the field with white spaces in between the valid characters
+4. Verify the field with more than 30 characters as input
+5. Verify the field without the special character '@'
+
+---------------------------------------------------------------------------------
+--------------------TEST CASES FOR COMPANY NAME FIELD----------------------------
+---------------------------------------------------------------------------------
+Company Name – TextBox – It is an mandatory field 
+This field can accept alphanumeric values of 30 digits
+---------------------------------------------------------------------------------
+
+Positive Test Cases:
+--------------------
+1. Verify the Company Name label on the contact us page
+2. Verify the input type of the field
+3. Verify the field with valid characters as input
+4. Verify the field with 30 valid characters as input
+5. Verify the color of label 'Company Name' 
+6. Verify the font size of label 'Company Name'
+7. Verify the font type of label 'Company Name'
+8. Verify the default text in the field
+9. Verify the validation messages in the field in case of invalid input
+10. Verify the position of label 'Company Name' in the contact us page
+
+Negative Test Cases:
+--------------------
+1. Verify the field with blank input
+2. Verify the field with special characters as input
+3. Verify the field with more than 30 characters as input
+
+---------------------------------------------------------------------------------
+--------------------TEST CASES FOR PHONE NUMBER FIELD----------------------------
+---------------------------------------------------------------------------------
+Phone Number – TextBox – It is an mandatory field 
+This field can accept only numeric values of 10 digits. 
+---------------------------------------------------------------------------------
+
+Positive Test Cases:
+--------------------
+1. Verify the label of the field 'Phone Number'
+2. Verify the input type of the field
+3. Verify the field with numeric characters of length 10 as input
+4. Verify the font type of the label 'Phone Number'
+5. Verify the font size of the label 'Phone Number'
+6. Verify the default text in the field
+7. Verify the color of the label
+8. Verify the validation messages in the field in case of invalid input
+
+Negative Test Cases:
+--------------------
+1. Verify the field with blank input
+2. Verify the field with less than 10 digits
+3. Verify the field with more than 10 digits
+4. Verify the field with alphanueric characters as input
+5. Verify the field with alphabetic characters as input
+
+---------------------------------------------------------------------------------
+----------------------TEST CASES FOR DEPARTMENT FIELD----------------------------
+---------------------------------------------------------------------------------
+Department – Listbox – It is an mandatory field 
+The current values available in database are Admin, Finance, Travel desk,
+HR & Others. 
+---------------------------------------------------------------------------------
+
+Positive Test Cases:
+--------------------
+1. Verify the label of the field 'Department'
+2. Verify the input type of field
+3. Verify if the value 'Admin' is present in the list
+4. Verify if the value 'Finance' is present in the list
+5. Verify if the value 'Travel Desk' is present in the list
+6. Verify if the value 'HR' is present in the list
+7. Verify if the value 'Others' is present in the list
+8. Verify the font type of the label 'Department'
+9. Verify the font size of the label 'Department'
+10. Verify the default text in the field
+11. Verify the color of the label
+12. Verify the validation message in the field
+
+Negative Test Cases:
+--------------------
+1. Verify the field by not clicking on any of the options in the dropdown list
+
+---------------------------------------------------------------------------------
+---------------TEST CASES FOR NUMBER OF EMPLOYEES FIELD--------------------------
+---------------------------------------------------------------------------------
+Number of Employees – ListBox -  it is an mandatory field 
+The current values available in database are Less than 50, 5- to 200, 
+201 to 2500 & More than 2500. 
+---------------------------------------------------------------------------------
+
+Positive Test Cases:
+--------------------
+1. Verify the label of the field 'Number of Employees'
+2. Verify the input type of field
+3. Verify if the value 'Less than 50' is present in the list
+4. Verify if the value '5- to 200' is present in the list
+5. Verify if the value '201 to 2500' is present in the list
+6. Verify if the value 'More than 2500' is present in the list
+7. Verify the font type of the label 'Number of Employees'
+8. Verify the font size of the label 'Number of Employees'
+9. Verify the default text in the field
+10. Verify the color of the label 'Number of Employees'
+11. Verify the validation message in the field 
+
+Negative Test Cases:
+--------------------
+1. Verify the field by not clicking on any of the options in the dropdown lists
+
+---------------------------------------------------------------------------------
+---------------------TEST CASES FOR COMMENTS FIELD-------------------------------
+---------------------------------------------------------------------------------
+Comments – TextBox  
+This field can accept Alphabetic data of maximum 2000 characters. 
+---------------------------------------------------------------------------------
+
+Positive Test Cases:
+--------------------
+1. Verify the 'Comments' label on the contact us page
+2. Verify the input type of the field
+3. Verify the field with valid characters as input
+4. Verify the field with 2000 valid characters as input
+5. Verify the color of label 'Comments'
+6. Verify the font size of label 'Comments'
+7. Verify the font type of label 'Comments'
+8. Verify the default text in the field
+9. Verify the validation messages in the field in case of invalid input
+10. Verify the position of label 'Comments' in the contact us page
+11. Verify the field with blank input
+
+Negative Test Cases:
+--------------------
+1. Verify the field with more than 2000 characters as input
+2. Verify the field with numeric characters as input
+3. Verify the field with special characters as input
+4. Verify the field with alphanumeric characters as input
+
+---------------------------------------------------------------------------------
+---------------------TEST CASES FOR SUBMIT BUTTON--------------------------------
+---------------------------------------------------------------------------------
+Submit – Button 
+The User after entering the necessary details clicks the “Submit” button. 
+The System validates the data. 
+If Valid, the Systems responds with the message that, “Contact details submitted. 
+Our representative will contact you within 24 hrs. 
+If the data is invalid, appropriate error message will be displayed.  
+---------------------------------------------------------------------------------
+
+Positive Test Cases:
+--------------------
+1. Verify the 'Submit' label on the contact us page
+2. Verify the input type of the field
+3. Verify the color of label 'Submit'
+4. Verify the font size of label 'Submit'
+5. Verify the font type of label 'Submit'
+6. Verify the default text in the field
+7. Verify the validation messages in the field 
+8. Verify the position of label 'Submit' in the contact us page
+
+Negative Test Cases:
+--------------------
+1. Verify by clicking the button if invalid inputs have been entered in the previous fields
